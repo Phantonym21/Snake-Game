@@ -38,7 +38,7 @@ def game_loop():
     snake_Vx = 0
     snake_Vy = 0
     food_x = random.randint(20, SCREEN_WIDTH / 2)
-    food_y = random.randint(20, (SCREEN_HEIGHT / 2)-60)
+    food_y = random.randint(20, SCREEN_HEIGHT/ 2)
     fps = 30
     score = 0
     font = pygame.font.SysFont(None, 55)
@@ -98,7 +98,7 @@ def game_loop():
                 score += 1
                 snake_length += 3
                 food_x = random.randint(10, SCREEN_WIDTH / 2)
-                food_y = random.randint(10, (SCREEN_HEIGHT / 2) - 60)
+                food_y = random.randint(50, SCREEN_HEIGHT / 2)
                 print(score * 10)
 
             head = []
