@@ -99,7 +99,6 @@ def game_loop():
                 snake_length += 3
                 food_x = random.randint(10, SCREEN_WIDTH / 2)
                 food_y = random.randint(50, SCREEN_HEIGHT / 2)
-                print(score * 10)
 
             head = []
             head.append(snakex)
